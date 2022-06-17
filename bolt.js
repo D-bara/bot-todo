@@ -69,7 +69,7 @@ app.message(/donelist/i, ({context, say}) => {
   }
 });
 
-app.message(/hello/i, ({message, say}) => {
+app.message(/こんにちは/i, ({message, say}) => {
   say(`こんにちは! <@${message.user}>さん`);
 });
 
